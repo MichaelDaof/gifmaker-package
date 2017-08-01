@@ -20,7 +20,7 @@ It'll also take an optional callback which will have the file passed back to you
 
 Once you got all your frames in there, hit ```Meteor.makeGif()``` and meteor-gifmaker will create your animated gif based on the sequece you've defined. And don't worry, if you accidentally defined your frames in non-consecutive frames.
 
-Lastly, meteor-gifmaker provides you with it's simple Redux-like state system, in case you wanna extend it's functionality in your UI. Currently that's the only way to set the interval time. 
+Lastly, meteor-gifmaker provides you with it's simple [Redux-like](https://github.com/reactjs/redux) state system, in case you wanna extend it's functionality in your UI. Currently that's the only way to set the interval time. 
 
 Until I get an interface for that, you can simply run ```Meteor.setState({interval: someTime})``` to define your intervals between frames. It takes time in units of seconds.
 
