@@ -1,0 +1,25 @@
+{
+  "name": "gifmaker-package",
+  "version": "0.0.1",
+  "description": "A meteor package",
+  "scripts": {
+    "start": "meteor",
+    "test": "mocha packages/meteor-gifmaker/main.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDaof/gifmaker-package.git"
+  },
+  "author": "Michael Daof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelDaof/gifmaker-package/issues"
+  },
+  "homepage": "https://github.com/MichaelDaof/gifmaker-package#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "file-api": "^0.10.4",
+    "filereader": "^0.10.3",
+    "mocha": "^3.5.0"
+  }
+}
