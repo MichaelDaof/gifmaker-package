@@ -1,0 +1,57 @@
+<body>
+<div class="container">
+    <header>
+        <h1>Gif Maker Test</h1>
+    </header>
+    <div>
+        <div>
+            {{> dropFile }}
+            <br>
+        </div>
+        <div>
+            1.&nbsp;{{> gifmaker frame="0"}}
+        </div>
+        <div>
+            2.&nbsp;{{> gifmaker frame="1"}}
+        </div>
+        <div>
+            3.&nbsp;{{> gifmaker frame="2"}}
+        </div>
+        <div>
+            4.&nbsp;{{> gifmaker frame="3"}}
+        </div>
+        <div>
+            5.&nbsp;{{> gifmaker frame="4"}}
+        </div>
+        <br>
+        <div>
+            {{> interval}}
+        </div>
+        <br>
+        <div>
+            {{> submit }}
+        </div>
+        <div>
+            <div id="gif"></div>
+        </div>
+        
+    </div>
+</div>
+</body>
+<template name="gifmaker">
+    <button><label for="frame-{{frame}}">Select file </label></button>
+    <input type="file" id="frame-{{frame}}" style="display: none;"/> 
+    <span>No file chosen</span>
+</template>
+
+<template name="submit">
+    <button>Submit</button>
+</template>
+
+<template name="interval">
+    <input type=number placeholder="milliseconds" min="0"/>
+</template>
+
+<template name="dropFile">
+    <div id="dropDiv" ondragover=""><span>Drag and <em>Drop</em> here</span></div>
+</template>
