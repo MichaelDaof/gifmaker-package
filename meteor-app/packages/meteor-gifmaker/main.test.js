@@ -88,7 +88,7 @@ describe('make gif', function() {
     }
     Meteor.setState({ frames: frames })
     Meteor.makeGif(function(url) {
-      // assert.isString(url)
+      assert.isString(url)
     })
   })
 
