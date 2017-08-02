@@ -59,7 +59,7 @@ Template.submit.events({
             var $gifImg = document.createElement('img');
             $download.href = result;
             $download.innerText = 'Download';
-            $download.download = true;
+            $download.download = "yay_gifss";
             $gifImg.src = result;
             // Clear mount, make room for new gif image.
             $gif.innerHTML = ''

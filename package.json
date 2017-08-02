@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "A meteor package",
   "scripts": {
-    "start": "meteor",
-    "test": "mocha packages/meteor-gifmaker/main.test.js"
+    "start": "meteor ./meteor-app",
+    "test": "npm i; mocha ./app/packages/meteor-gifmaker/main.test.js"
   },
   "repository": {
     "type": "git",
