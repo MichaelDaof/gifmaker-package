@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "A meteor package",
   "scripts": {
-    "start": "meteor ./meteor-app",
-    "test": "npm i; mocha ./app/packages/meteor-gifmaker/main.test.js"
+    "test": "npm i; mocha ./meteor-app/packages/meteor-gifmaker/main.test.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,8 @@
     "file-api": "^0.10.4",
     "filereader": "^0.10.3",
     "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "gifshot": "^0.3.2"
   }
 }

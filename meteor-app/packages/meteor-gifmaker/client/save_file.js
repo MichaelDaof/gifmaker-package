@@ -2,7 +2,7 @@
  * Files are converted into data:URL's and kept in internal state
  * system as frames for gifshot
  * 
- * Takes callback for asynchronous data handling
+ * Takes callback
  */
 
 Meteor.saveFile = function(blob, frame, callback) {
