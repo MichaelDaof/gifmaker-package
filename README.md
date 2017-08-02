@@ -27,13 +27,14 @@ Until I get an interface for that, you can simply run ```Meteor.setState({interv
 And that's it. Let's make some gifs!
 
 ## Installation
-To install
+This repo maintains the meteor-gifmaker package. It's nested as a meteor app which is used to demonstrate it's usage.
 ```
 // From root directory
+cd meteor-app
 meteor
 ```
 
-NPM package is provided for unit tests for the Meteor package using Mocha/Chai
+NPM is provided for unit tests for the Meteor package using Mocha/Chai.
 ```
 npm i
 npm test
